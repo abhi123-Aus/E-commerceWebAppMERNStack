@@ -1,0 +1,38 @@
+{
+  "name": "unbox",
+  "version": "1.0.0",
+  "description": "### Initializing Package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "start": "nodemon app.js",
+    "db": "mongod --dbpath /usr/local/var/mongodb/ --rest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "braintree": "^2.23.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^5.3.1",
+    "formidable": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mocha": "^7.1.2",
+    "moment": "^2.25.3",
+    "mongoose": "^5.9.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2",
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2"
+  }
+}
